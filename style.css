@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+}
+
+/* HEADER */
+header{
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.logo{
+  display:flex;
+  justify-content: space-between;
+}
+.header-title{
+  display: flex;
+  align-items: center;
+  padding: 10px 0 0 10px;
+}
+.header-title img{
+  width: 100px;
+}
+.user{
+  display: flex;
+  padding: 20px 20px 0 0;
+}
+.user span{
+  color: white;
+  background-color: green;
+  border-radius: 50%;
+  padding: 4px 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+.user .ham-menu{
+  font-size: 16px;
+  color: gray;
+}
+
+.menu li{
+  display: inline;
+  margin: 0 25px;
+  font-weight: bold;
+  color: gray;
+}
+
+.menu li:last-of-type{
+  color: #3367d6;
+  border-bottom: 3px solid #3367d6;
+  padding-bottom: 8px;
+}

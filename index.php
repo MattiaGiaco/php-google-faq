@@ -52,9 +52,43 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Acme&family=Lato:ital,wght@0,400;1,100&family=Open+Sans:ital,wght@1,300&family=Rubik&display=swap" rel="stylesheet">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
   <title>Google faq</title>
 </head>
 <body>
-  
+
+<header>
+  <div class="logo">
+    <div class="header-title">
+      <img src="img/logo.png" alt="Logo Google">
+      <h2>Privacy e termini</h2>
+    </div>
+    <div class="user">
+      <div class="ham-menu">
+        <i class="fas fa-ellipsis-v"></i>
+        <i class="fas fa-ellipsis-v"></i>
+        <i class="fas fa-ellipsis-v"></i>
+      </div>
+      <div>
+        <span>M</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="menu">
+    <ul>
+      <li>Introduzione</li>
+      <li>Norme sulla privacy</li>
+      <li>Termini di servizio</li>
+      <li>Tecnologie</li>
+      <li>Domande frequenti</li>
+    </ul>
+  </div>
+</header>
+
 </body>
 </html>
