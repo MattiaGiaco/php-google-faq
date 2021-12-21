@@ -7,12 +7,14 @@
 body{
   font-family: 'Open Sans', sans-serif;
   font-size: 14px;
+  
 }
 
 /* HEADER */
 header{
-  border-bottom: 1px solid gray;
+  border-bottom: 1px solid lightgray;
   padding-bottom: 10px;
+  color: slategray;
 }
 .logo{
   display:flex;
@@ -48,11 +50,27 @@ header{
   display: inline;
   margin: 0 25px;
   font-weight: bold;
-  color: gray;
+  cursor: pointer;
 }
 
 .menu li:last-of-type{
   color: #3367d6;
   border-bottom: 3px solid #3367d6;
   padding-bottom: 8px;
+}
+
+/* MAIN */
+.container{
+  width: 998px;
+  margin: 100px auto;
+}
+
+.container h2{
+  margin: 50px 0;
+  font-size: 24px;
+  
+}
+
+.container ul, .container ol{
+  margin: 25px;
 }
